@@ -1,4 +1,4 @@
-// First by Jane Kain
+// First example by Jane Kain
 function logDelayed(array, delay) {
 
     let accumulate = Promise.resolve();
@@ -14,7 +14,7 @@ function logDelayed(array, delay) {
 
 logDelayed([ 1, 2, 3, 4, 5 ], 1000);
 
-// Second by Vova Zavalsky
+// Second example by Vova Zavalsky
 const array = [...Array(5).keys()];
 
 const getDelayed = (element, delay) =>
